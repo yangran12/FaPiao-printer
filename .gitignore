@@ -1,0 +1,34 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ===== PyInstaller 构建产物 =====
+build/
+dist/
+*.spec
+
+# ===== 发布/部署产物（含大体积 EXE）=====
+server-payload/
+InvoicePrint*.exe
+
+# ===== 测试输出 =====
+**/scripts/out/
+
+# ===== Claude 规划/内部文件 =====
+.claude/
+
+# ===== IDE / 系统 =====
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ===== 敏感信息（勿提交）=====
+secrets.env
+*.pem
+*.key
+api key of ds.txt
